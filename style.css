@@ -237,7 +237,16 @@ nav .nav_active{
     height: auto;
     padding: 10px;
     border: 1px solid var(--fourth);
+    background: rgba(154, 154, 154, 0.2);
     border-radius: 4px;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    transition: 0.3s ease-out;
+}
+.category_box:hover{
+    border: 1px solid var(--tertiary);
+    background: none;
+    box-shadow: 0 1px 12px rgba(154, 154, 154, 0.8);
 }
 .category_box img{
     width: 100%;
