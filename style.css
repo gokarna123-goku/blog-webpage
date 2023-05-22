@@ -473,7 +473,15 @@ nav .nav_active{
     color: var(--secondary);
 }
 
-
+/* Newsletter and Social Section */
+.newsletter_social_section{
+    width: 100%;
+    height: auto;
+}
+.newsletter_section{
+    border: 1px solid rgba(154, 154, 154, 0.2);
+    border-radius: 4px;
+}
 
 
 
