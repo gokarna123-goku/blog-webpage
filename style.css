@@ -329,6 +329,12 @@ nav .nav_active{
     justify-content: end;
     flex-direction: column;
 }
+.feature_date{
+    font-size: 1.0rem;
+    color: var(--fourth);
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
 
 
 
