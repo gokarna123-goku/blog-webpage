@@ -481,11 +481,11 @@ nav .nav_active{
 .latest_box{
     width: 100%;
     height: auto;
-    gap: 1rem;
+    gap: 1.3rem;
     flex-wrap: wrap;
 }
 .latest_card{
-    width: 270px;
+    width: 310px;
     height: auto;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.02) rgba(0, 0, 0, 0.015));
 }
