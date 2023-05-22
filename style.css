@@ -157,4 +157,26 @@ nav .nav_active{
 } 
 
 
+/* Hero Section */
+.hero_section{
+    width: 100%;
+    height: 70vh;
+    padding: 0 60px;
+}
+.carousel-item{
+    width: 100%;
+    height: 70vh;
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2019/01/25/11/18/girl-3954232_960_720.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
 /* End of Css */
