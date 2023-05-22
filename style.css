@@ -538,6 +538,12 @@ nav .nav_active{
     background: transparent;
 }
 
+/* Footer Section */
+.footer_section{
+    width: 100%;
+    height: auto;
+    background: var(--primary);
+}
 
 
 
