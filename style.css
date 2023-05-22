@@ -62,6 +62,7 @@ li{
 .form-select:focus, .form-select:active:focus, .form-select.active:focus{
     outline: none;
     box-shadow: none;
+    background: transparent;
 }
 
 .form-check-input[type=checkbox]{
@@ -71,6 +72,7 @@ li{
 .form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
     outline: none;
     box-shadow: none;
+    background: transparent;
 }
 
 .form-control{
@@ -128,6 +130,7 @@ nav .nav_active{
     border-radius: 4px;
     display: flex;
     align-items: center;
+    padding: 0;
 }
 .search_box input{
     width: 70%;
@@ -136,6 +139,22 @@ nav .nav_active{
     border: none;
     outline: none;
 }
+.search_btn:focus, .search_btn:active:focus, .search_btn.active:focus{
+    outline:none;
+    box-shadow:none;
+    border: none;
+    background: var(--secondary);
+}
+.search_box .search_btn{
+    width: 30%;
+    height: 100%;
+    background: var(--secondary);
+    color: var(--tertiary);
+} 
+.search_box .search_btn:hover{
+    background: var(--secondary);
+    color: var(--tertiary);
+} 
 
 
 /* End of Css */
