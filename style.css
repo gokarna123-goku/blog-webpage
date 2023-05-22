@@ -56,6 +56,7 @@ li{
 .form-control:focus, .form-control:active:focus, .form-control.active:focus{
     outline: none;
     box-shadow: none;
+    background: transparent;
 }
 
 .form-select:focus, .form-select:active:focus, .form-select.active:focus{
@@ -107,6 +108,7 @@ nav .nav-link{
     font-weight: 400;
     color: var(--fourth);
     letter-spacing: 0.01rem;
+    transition: 0.3s ease-out;
 }
 nav .nav-link:hover{
     color: var(--secondary);
@@ -116,6 +118,23 @@ nav .nav_active{
     font-weight: 500;
     color: var(--secondary);
     letter-spacing: 0.05rem;
+}
+/* Search Section */
+.search_box{
+    width: 350px;
+    height: 40px;
+    background: var(--fourth);
+    border: 1px solid var(--fourth);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.search_box input{
+    width: 70%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 
