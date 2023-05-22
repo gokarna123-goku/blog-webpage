@@ -526,6 +526,11 @@ nav .nav_active{
     font-size: 1.1rem;
     color: var(--primary);
 }
+.social_box{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
 .input_group{
     width: 100%;
     height: auto;
