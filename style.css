@@ -544,6 +544,15 @@ nav .nav_active{
     height: auto;
     background: var(--primary);
 }
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary);
+}
+.footer_desc{
+    font-size: 0.99rem;
+    color: var(--fourth);
+}
 
 
 
