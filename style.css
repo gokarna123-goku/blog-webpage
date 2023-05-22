@@ -335,6 +335,12 @@ nav .nav_active{
     font-weight: 400;
     margin-bottom: 0.2rem;
 }
+.feature_title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    letter-spacing: 0.02rem;
+}
 
 
 
