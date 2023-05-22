@@ -35,7 +35,7 @@ li{
 /* Defining the root */
 :root{
     --bg-color: #e2e2e2;
-    --primary: #1c1c1c;
+    --primary: #353535;
     --secondary: #e24806;
     --tertiary: #f4f4f4;
     --fourth : #a7a7a7;
@@ -80,3 +80,18 @@ li{
 .form-select{
     border-radius: 4px;
 }
+
+/* Global Padding Section (cpadding => Custom Padding) */
+.cpadding{
+    padding: 40px 60px;
+}
+
+
+/* Navabar Section */
+nav{
+    padding: 10px 60px !important;
+    background: var(--primary);
+}
+
+
+/* End of Css */
