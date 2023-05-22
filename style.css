@@ -478,6 +478,12 @@ nav .nav_active{
     width: 100%;
     height: auto;
 }
+.latest_box{
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
 
 
 
