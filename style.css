@@ -348,6 +348,39 @@ nav .nav_active{
     letter-spacing: 0.02rem;
 }
 
+/* Video Section */
+.video_section{
+    width: 100%;
+    height: auto;
+}
+.video_box{
+    width: 100%;
+    height: auto;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+}
+.video_card{
+    width: 315px;
+    height: 25vh;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Banner Section */
+.banner_section{
+    width: 100%;
+    height: auto;
+}
+.banner_box{
+    width: 100%;
+    height: 30vh;
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2020/02/05/13/02/waterfalls-4821153_960_720.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 2.2rem;
+    color: var(--fourth);
+}
 
 /* Popular Section */
 .popular_section{
