@@ -250,7 +250,7 @@ nav .nav_active{
 }
 .category_box img{
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     object-fit: cover;
     border-radius: 4px;
     object-position: center;
@@ -258,7 +258,7 @@ nav .nav_active{
 .category_box .category_title{
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--secondary);
+    color: var(--primary);
     letter-spacing: 0.08rem;
     padding: 10px 0 0 0;
 }
