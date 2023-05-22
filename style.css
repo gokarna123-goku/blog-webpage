@@ -364,6 +364,7 @@ nav .nav_active{
     height: auto;
     border-radius: 4px;
     overflow: hidden;
+    box-shadow: 0 0.5px 12px rgba(0, 0, 0, 0.15);
 }
 .img_box{
     position: relative;
@@ -393,7 +394,12 @@ nav .nav_active{
 .popular_data{
     width: 100%;
     height: auto;
-    padding: 12px 0;
+    padding: 12px;
+}
+.publish_detail{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.8rem;
 }
 .publish_detail a{
     font-size: 1.0rem;
@@ -406,6 +412,27 @@ nav .nav_active{
 .publish_detail a:hover{
     color: var(--secondary);
 }
+.popular_title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary);
+    letter-spacing: 0.01rem;
+    margin-bottom: 0.5rem;
+}
+.popular_desc{
+    font-size: 0.89rem;
+    color: var(--fourth);
+}
+.read_more{
+    font-size: 1.1rem;
+    color: var(--secondary);
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+}
+.read_more:hover{
+    color: var(--secondary);
+}
+
 
 
 
