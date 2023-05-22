@@ -343,6 +343,31 @@ nav .nav_active{
 }
 
 
+/* Popular Section */
+.popular_section{
+    width: 100%;
+    height: auto;
+}
+.popular_box{
+    width: 100%;
+    height: auto;
+    gap: 1.3rem;
+}
+.popular_card{
+    width: 450px;
+    height: auto;
+}
+.img_box{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
