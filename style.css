@@ -178,6 +178,13 @@ nav .nav_active{
     letter-spacing: 0.01rem;
     margin-bottom: 1.2rem;
 }
+.blog_title{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--tertiary);
+    letter-spacing: 0.13rem;
+    margin-bottom: 1.5rem;
+}
 
 
 
