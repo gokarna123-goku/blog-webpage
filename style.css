@@ -228,7 +228,31 @@ nav .nav_active{
 
 
 /* Top Categories Section */
-
+.category_section{
+    width: 100%;
+    height: auto;
+}
+.category_box{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid var(--fourth);
+    border-radius: 4px;
+}
+.category_box img{
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    border-radius: 4px;
+    object-position: center;
+}
+.category_box .category_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--secondary);
+    letter-spacing: 0.08rem;
+    padding: 10px 0 0 0;
+}
 
 
 
