@@ -92,6 +92,31 @@ nav{
     padding: 10px 60px !important;
     background: var(--primary);
 }
+nav .logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    letter-spacing: 0.08rem;
+    transition: 0.5s ease-out;
+}
+nav .logo:hover{
+    color: var(--secondary);
+}
+nav .nav-link{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--fourth);
+    letter-spacing: 0.01rem;
+}
+nav .nav-link:hover{
+    color: var(--secondary);
+}
+nav .nav_active{
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--secondary);
+    letter-spacing: 0.05rem;
+}
 
 
 /* End of Css */
