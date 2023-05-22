@@ -169,10 +169,14 @@ nav .nav_active{
     background: var(--linear-background), url("https://cdn.pixabay.com/photo/2019/01/25/11/18/girl-3954232_960_720.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+.blog_date{
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: var(--fourth);
+    letter-spacing: 0.01rem;
+    margin-bottom: 1.2rem;
 }
 
 
