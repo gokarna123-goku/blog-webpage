@@ -434,7 +434,7 @@ nav .nav_active{
 .popular_data{
     width: 100%;
     height: auto;
-    padding: 12px;
+    padding: 12px 15px;
 }
 .publish_detail{
     width: 100%;
@@ -474,7 +474,10 @@ nav .nav_active{
 }
 
 /* Latest Posts */
-
+.latest_blog{
+    width: 100%;
+    height: auto;
+}
 
 
 
