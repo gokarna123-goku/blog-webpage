@@ -34,7 +34,7 @@ li{
 
 /* Defining the root */
 :root{
-    --bg-color: #e2e2e2;
+    --bg-color: #fdfdfd;
     --primary: #353535;
     --secondary: #e24806;
     --tertiary: #f4f4f4;
@@ -87,6 +87,12 @@ li{
 /* Global Padding Section (cpadding => Custom Padding) */
 .cpadding{
     padding: 40px 100px;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background: var(--bg-color);
 }
 
 
