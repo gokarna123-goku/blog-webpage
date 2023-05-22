@@ -231,6 +231,7 @@ nav .nav_active{
 .category_section{
     width: 100%;
     height: auto;
+    gap: 1.5rem;
 }
 .category_box{
     width: 200px;
@@ -239,7 +240,6 @@ nav .nav_active{
     border: 1px solid var(--fourth);
     background: rgba(154, 154, 154, 0.2);
     border-radius: 4px;
-    gap: 1.2rem;
     flex-wrap: wrap;
     transition: 0.3s ease-out;
 }
