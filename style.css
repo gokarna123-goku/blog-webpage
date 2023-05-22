@@ -262,6 +262,15 @@ nav .nav_active{
     letter-spacing: 0.08rem;
     padding: 10px 0 0 0;
 }
+/* Divider Section */
+.divider_section{
+    padding: 10px 100px;
+}
+.divider{
+    width: 100%;
+    height: 1px;
+    background: rgba(154, 154, 154, 0.2);
+}
 
 
 
