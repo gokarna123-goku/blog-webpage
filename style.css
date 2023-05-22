@@ -384,6 +384,22 @@ nav .nav_active{
     color: var(--tertiary);
 }
 
+.popular_data{
+    width: 100%;
+    height: auto;
+    padding: 12px 0;
+}
+.publish_detail a{
+    font-size: 1.0rem;
+    color: var(--fourth);
+    transition: 0.5s ease-out;
+}
+.publish_detail i{
+    font-size: 0.89rem;
+}
+.publish_detail a:hover{
+    color: var(--secondary);
+}
 
 
 
