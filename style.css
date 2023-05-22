@@ -161,9 +161,13 @@ nav .nav_active{
 .hero_section{
     width: 100%;
     height: 70vh;
-    padding: 0 60px;
+    /* padding: 0 60px; */
 }
-.carousel-item{
+.carousel_box{
+    width: 100%;
+    height: auto;
+}
+.carousel1{
     width: 100%;
     height: 70vh;
     background: var(--linear-background), url("https://cdn.pixabay.com/photo/2019/01/25/11/18/girl-3954232_960_720.jpg") no-repeat;
@@ -171,19 +175,54 @@ nav .nav_active{
     background-size: cover;
     flex-direction: column;
 }
-.blog_date{
+.carousel2{
+    width: 100%;
+    height: 70vh;
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_960_720.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-direction: column;
+}
+.carousel3{
+    width: 100%;
+    height: 70vh;
+    background: var(--linear-background), url("https://cdn.pixabay.com/photo/2017/10/23/05/56/summer-2880261_960_720.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    flex-direction: column;
+}
+.carousel_box .blog_date{
     font-size: 1.0rem;
     font-weight: 400;
     color: var(--fourth);
     letter-spacing: 0.01rem;
     margin-bottom: 1.2rem;
 }
-.blog_title{
+.carousel_box .blog_title{
     font-size: 4.5rem;
     font-weight: 600;
     color: var(--tertiary);
     letter-spacing: 0.13rem;
     margin-bottom: 1.5rem;
+}
+.carousel_box a{
+    width: 210px;
+    height: 45px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    transition: 0.5s ease-out;
+}
+.carousel_box a:hover{
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
 }
 
 
