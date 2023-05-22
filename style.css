@@ -86,7 +86,7 @@ li{
 
 /* Global Padding Section (cpadding => Custom Padding) */
 .cpadding{
-    padding: 40px 60px;
+    padding: 40px 100px;
 }
 
 
@@ -225,6 +225,9 @@ nav .nav_active{
     border: 2px solid var(--secondary);
     color: var(--tertiary);
 }
+
+
+/* Top Categories Section */
 
 
 
