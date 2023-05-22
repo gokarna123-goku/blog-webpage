@@ -356,6 +356,8 @@ nav .nav_active{
 .popular_card{
     width: 450px;
     height: auto;
+    border-radius: 4px;
+    overflow: hidden;
 }
 .img_box{
     position: relative;
@@ -367,6 +369,14 @@ nav .nav_active{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.popular_category{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--secondary);
+    padding: 5px 10px;
+    color: var(--tertiary);
 }
 
 
