@@ -515,6 +515,26 @@ nav .nav_active{
 .publish_date i{
     font-size: 0.78rem;
 }
+.newsletter_box{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.newsletter_title{
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+.input_group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input_group input{
+    border: 1px solid var(--fourth);
+    background: transparent;
+}
 
 
 
