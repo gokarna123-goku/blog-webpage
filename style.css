@@ -526,10 +526,20 @@ nav .nav_active{
     font-size: 1.1rem;
     color: var(--primary);
 }
-.social_box{
+.social_section{
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+.social__box{
+    width: 100%;
+    height: auto;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+.social__box a{
+    width: 46%;
+    height: 40px;
 }
 .input_group{
     width: 100%;
