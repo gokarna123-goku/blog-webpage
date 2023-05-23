@@ -600,7 +600,7 @@ nav .nav_active{
     height: auto;
 }
 .blog_detail_title{
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: var(--primary);
     letter-spacing: 0.05rem;
@@ -608,6 +608,8 @@ nav .nav_active{
 .publish_detail_data{
     width: 100%;
     height: auto;
+    gap: 1rem;
+    color: var(--fourth);
 }
 .publish_detail_data img{
     width: 30px;
@@ -615,6 +617,14 @@ nav .nav_active{
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+}
+.detail_img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 4px;
+}
+.pic_reference{
+    font-size: 0.68rem;
 }
 
 
