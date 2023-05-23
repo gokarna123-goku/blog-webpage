@@ -633,6 +633,25 @@ nav .nav_active{
     object-position: center;
     border-radius: 4px;
 }
+.detail_desc{
+    font-size: 1.0rem;
+    color: var(--primary);
+}
+.tag_section{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.tag_section a{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 0.10);
+    font-size: 1.0rem;
+    color: var(--primary);
+    border-radius: 4px;
+}
+.tag_section a:hover{
+    background: rgba(0, 0, 0, 0.10);
+}
 
 
 
