@@ -595,8 +595,27 @@ nav .nav_active{
 }
 
 /* Detail Section */
-
-
+.detail_box{
+    width: 100%;
+    height: auto;
+}
+.blog_detail_title{
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: 0.05rem;
+}
+.publish_detail_data{
+    width: 100%;
+    height: auto;
+}
+.publish_detail_data img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
