@@ -708,6 +708,17 @@ nav .nav_active{
 .popular_tag_section a:hover{
     background: rgba(226, 72, 6, 0.29);
 }
+.quote_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    column-gap: 0.5rem;
+}
+.quote_title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
 
 
 
