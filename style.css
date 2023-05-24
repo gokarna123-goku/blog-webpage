@@ -238,6 +238,7 @@ nav .nav_active{
 .category_section{
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
 .category_box{
