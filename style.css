@@ -59,31 +59,6 @@ li{
     background: transparent;
 }
 
-.form-select:focus, .form-select:active:focus, .form-select.active:focus{
-    outline: none;
-    box-shadow: none;
-    background: transparent;
-}
-
-.form-check-input[type=checkbox]{
-    border-radius: 4px;
-}
-
-.form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
-    outline: none;
-    box-shadow: none;
-    background: transparent;
-}
-
-.form-control{
-    border-radius: 4px;
-    border: none;
-}
-
-.form-select{
-    border-radius: 4px;
-}
-
 /* Global Padding Section (cpadding => Custom Padding) */
 .cpadding{
     padding: 40px 100px;
