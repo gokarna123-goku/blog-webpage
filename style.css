@@ -652,7 +652,44 @@ nav .nav_active{
 .tag_section a:hover{
     background: rgba(0, 0, 0, 0.10);
 }
-
+.recent_post_box{
+    width: 100%;
+    height: auto;
+}
+.recent_post{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    column-gap: 0.7rem;
+    transition: 0.5s ease-out;
+}
+.recent_post img{
+    width: 120px;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+.recent_data{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
+.recent_data h6{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary);
+    letter-spacing: 0.02rem;
+    transition: 0.5s ease-out;
+}
+.recent_data p{
+    font-size: 0.99rem;
+    color: var(--fourth);
+}
+.recent_post:hover .recent_data h6{
+    color: var(--secondary);
+}
 
 
 
