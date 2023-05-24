@@ -732,6 +732,14 @@ nav .nav_active{
     width: 45%;
     height: 42px;
     font-size: 1.2rem;
+    background: #e24806;
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
+}
+.social_link_box a:hover{
+    background: #e24806;
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
 }
 
 
