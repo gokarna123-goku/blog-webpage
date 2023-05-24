@@ -722,6 +722,17 @@ nav .nav_active{
 .quote_title i{
     color: var(--secondary);
 }
+.social_link_box{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.social_link_box a{
+    width: 45%;
+    height: 42px;
+    font-size: 1.2rem;
+}
 
 
 
