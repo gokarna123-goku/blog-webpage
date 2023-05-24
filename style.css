@@ -730,11 +730,14 @@ nav .nav_active{
 }
 .social_link_box a{
     width: 45%;
-    height: 42px;
+    height: 40px;
     font-size: 1.2rem;
     background: #e24806;
     border: 2px solid var(--secondary);
     color: var(--tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social_link_box a:hover{
     background: #e24806;
