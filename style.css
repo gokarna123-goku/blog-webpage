@@ -690,7 +690,24 @@ nav .nav_active{
 .recent_post:hover .recent_data h6{
     color: var(--secondary);
 }
-
+.popular_tag_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+.popular_tag_section a{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 0.10);
+    font-size: 1.0rem;
+    color: var(--primary);
+    border-radius: 4px;
+}
+.popular_tag_section a:hover{
+    background: rgba(226, 72, 6, 0.29);
+}
 
 
 
