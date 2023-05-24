@@ -550,6 +550,11 @@ nav .nav_active{
     font-size: 1.0rem;
     color: var(--tertiary);
 }
+.social__box a:hover{
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--tertiary);
+}
 .input_group{
     width: 100%;
     height: auto;
