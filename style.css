@@ -93,6 +93,7 @@ body{
     width: 100%;
     height: auto;
     background: var(--bg-color);
+    scroll-behavior: smooth;
 }
 
 
