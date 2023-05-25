@@ -736,6 +736,19 @@ nav .nav_active{
 }
 
 
+/* Responsive Code */
+@media screen and ( max-width: 1024px ) {
+    nav {
+        padding: 10px 20px !important;
+    }
+    .cpadding {
+        padding: 40px 50px;
+    }
+    .video_card {
+        width: 400px;
+    }
+}
+
 
 
 /* End of Css */
