@@ -737,7 +737,7 @@ nav .nav_active{
 
 
 /* Responsive Code */
-@media screen and ( max-width: 1024px ) {
+@media screen and (max-width: 1024px) {
     nav {
         padding: 10px 20px !important;
     }
@@ -757,7 +757,7 @@ nav .nav_active{
         width: 393px;
     }
 }
-@media screen and ( max-width: 768px ) {
+@media screen and (max-width: 768px) {
     nav {
         padding: 10px 20px !important;
     }
@@ -800,7 +800,7 @@ nav .nav_active{
     }
 }
 
-@media screen and ( max-width: 425px ) {
+@media screen and (max-width: 425px) {
     .category_box {
         width: 275px;
     }
@@ -811,7 +811,7 @@ nav .nav_active{
         width: 100%;
     }
     .banner_box {
-        font-size: 1.4rem;
+        font-size: 1.0rem;
     }
     .popular_box {
         flex-wrap: wrap;
