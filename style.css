@@ -820,6 +820,19 @@ nav .nav_active{
     .latest_card {
         width: 100%;
     }
+    /* Detail */
+    .blog_detail_title {
+        font-size: 1.8rem;
+    }
+    .publish_detail_data {
+        flex-wrap: wrap;
+    }
+    .detail_img {
+        height: 35vh;
+    }
+    .tag_section {
+        flex-wrap: wrap;
+    }
 }
 
 
