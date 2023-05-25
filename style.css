@@ -747,6 +747,47 @@ nav .nav_active{
     .video_card {
         width: 400px;
     }
+    .newsletter_social_section{
+        display: none;
+    }
+    .latest_card {
+        width: 393px;
+    }
+}
+@media screen and ( max-width: 768px ) {
+    nav {
+        padding: 10px 20px !important;
+    }
+    .carousel_box .blog_title {
+        font-size: 3.0rem;
+    }
+    .cpadding {
+        padding: 40px 30px;
+    }
+    .category_box {
+        width: 268px;
+    }
+    .category_box img {
+        height: 30vh;
+    }
+    .feature_box {
+        flex-wrap: wrap;
+    }
+    .feature_long {
+        width: 100%;
+    }
+    .feature_short {
+        width: 48%;
+    }
+    .video_card {
+        width: 400px;
+    }
+    .newsletter_social_section{
+        display: none;
+    }
+    .latest_card {
+        width: 393px;
+    }
 }
 
 
