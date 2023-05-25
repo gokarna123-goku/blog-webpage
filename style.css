@@ -818,7 +818,7 @@ nav .nav_active{
         justify-content: center !important;
     }
     .latest_card {
-        width: 277px;
+        width: 100%;
     }
 }
 
