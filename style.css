@@ -113,9 +113,9 @@ nav .nav_active{
     display: flex;
     align-items: center;
     padding: 0;
+    overflow: hidden;
 }
 .search_box input{
-    width: 70%;
     height: 100%;
     background: none;
     border: none;
@@ -128,14 +128,14 @@ nav .nav_active{
     background: var(--secondary);
 }
 .search_box .search_btn{
-    width: 30%;
     height: 100%;
-    background: var(--secondary);
-    color: var(--tertiary);
+    background: none;
+    border-radius: 0;
+    color: var(--primary);
 } 
 .search_box .search_btn:hover{
-    background: var(--secondary);
-    color: var(--tertiary);
+    background: rgba(154, 154, 154, 0.8);
+    color: var(--primary);
 } 
 
 
